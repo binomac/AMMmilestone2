@@ -2,13 +2,155 @@
     Created on : 23-mar-2016, 21.12.52
     Author     : luca
 */
-header {
-    background-image: url("img/pageStyle/header") ;
+
+body {
+    background-image: url('download.jpg') ;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
 }
+a:hover {
+    color: yellow ;
+}
+a:visted {
+    color: grey ;
+}
+header {
+    text-align: center ;
+    position: relative ;
+    background-color: orange ;
+    border: 30px ;
+    border-color: lightskyblue ;
+    
+}
+header h1 {
+        color: red ;
+        font-size: 4em;
+}
+header h2 {
+        font-size: 1.5em;
+}
+header nav {
+    display: inline-block ;
+    background-color: white ;
+}    
+article {
+    position: absolute;
+    margin-left: 16%;
+}
+article h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, serif ;
+}
+article h3 {
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", cursive, serif ;
+}
+article h4 {
+    font-size: 1em;
+}
+nav.rowL {
+    position: absolute ;
+    width: 15%;
+    height: 100%;
+    
+}
+form {
+    position: absolute ;
+    align-items: center
+}
+fieldset {
+    align-items: center ;
+    width: 50%;
+    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    border-color: black;
+}
+fieldset legend {
+    font-size: 0.75em;
+}
+#sbutton {
+    margin: 3px;
+    margin-top: 6px;
+}
+label{width: 300px;
+margin-left:20px;
+
+display:block;
+
+}
+input, textarea{
+
+width: 300px;
+float: left;
+clear: both;
+margin-bottom:10px;
+}
+
+table {
+    border: 1px solid ;
+    border-collapse: collapse;
+    border-color: black ;
+}
+th {
+    text-align: center;
+    border: 2px solid;
+    background-color: red;
+}
+td{
+     border: 1px solid;
+     text-align: center ;
+}
+td.cart {
+    width: 50px;
+}
+tr.p {background-color: lightblue;}
+tr.d {background-color: lightskyblue;}
+
+/*
+p{ line-height: 1em; }
+h1, h2, h3 {
+    color: orange;
+   
+    line-height: 1.1em ;
+    margin: 0 0 .5em 0; 
+}
+h1{ 
+    font-size: 1.7em; 
+    font-weight: bold ;
+}
+h2{ font-size: 1.5em; }
+
+	a:hover { text-decoration: cancel-underline }
+        a:link {color: darkorange ; }
+        a:visited {color: lemonchiffon}
+
+header {
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-left: 5% ;
+    padding-right: 5% ;
+    padding-top: 3% ;
+    padding-bottom: 2% ;
+}
+
 header h1 {
     font-size : 45px ;
     font-weight: bold ;
     font-family: "Times New Roman" , Times , serif ;
     text-align: center ;
-    color: #F3BA0E ;
+    color: darkorange ;
 }
+header h2 {
+    font-size: 30px ;
+    color: darkorange ;
+    text-align: right ;
+}
+header hr {
+    border: 0 ;
+    height: 1px ;
+}
+*/

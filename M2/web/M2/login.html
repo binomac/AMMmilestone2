@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="MMT - login">
         <meta name="author" content="Luca Camboni">
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
         <header>
-            <h1>MMT - mercato mezzi trasporto </h1>
-            <h2>l'E-commerce di <strong>veicoli a motore</strong> fra privati </h2>          
+            <h1>MMT</h1>
+            <h2>mercato mezzi trasporto</h2>          
             <nav>
                 <hr/>
                 <p>
@@ -23,16 +24,15 @@
         </header>
         <div>
             <h2>Accedi</h2>
-            <form method="get"><!--per il momento uso il metodo get e non specifico action="login.html" perchè è di default-->
+            <form method="get" id="login"><!--per il momento uso il metodo get e non specifico action="login.html" perchè è di default-->
                 <fieldset>
                     <legend>I tuoi dati</legend>
-                    <label for="usr">Username</label>
+                    <label for="usr">Username:</label>
                     <input type="text" name="usrername" id="usr" value="username" required="required"/>
-                    <br/>
-                    <label for="psw">Password</label>
+                    <label for="psw">Password:</label>
                     <input type="password" name="password" id="psw" value="pswd" required="required"/>
-                    <br/>
-                    <input type="submit" value="Accedi"/>
+                    <br>
+                    <input type="submit" value="Accedi" id="sbutton"/>
                 </fieldset>
             </form>
         </div>
