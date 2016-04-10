@@ -13,14 +13,16 @@
             <h1>MMT</h1>
             <h2>mercato mezzi trasporto</h2> 
             <nav>
-                <hr/>
-                <p>
-                    <a href="descrizione.html">HOME</a> | <a href="login.html">Login</a> 
-                </p>
-                <hr/> 
+                <ul>
+                    <li><a class="man" href="descrizione.html">HOME</a></li>
+                    <li><a class="man" href="login.html">Login</a></li>
+                    <li class="currpag"><a href="venditore.html">Vendi</a></li>
+                    <li><a class="man" href="cliente.html">Compra</a></li>
+                </ul>
+                
             </nav>
         </header>
-        <div>
+        <div class="cForm">
             <h2>Vendi prodotto</h2>
             <h3>Crea inserzione</h3>
             <form method="get"><!-- per il momento uso il metodo get e non specifico action="venditore.html" perchè è di default -->
@@ -41,7 +43,7 @@
                     <label for="quantity">quantità:</label>
                     <input type="number" name="quantità" id="quantity" value="1" min='1' required="required"/>
                     <br/>
-                    <input type="submit" value="Vendi"/>
+                    <input type="submit" value="Vendi" class="sbutton"/>
                 </fieldset>
             </form>
         </div>
